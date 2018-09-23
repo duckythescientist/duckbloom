@@ -1,0 +1,6 @@
+[submodule "logc"]
+	path = logc
+	url = https://github.com/duckythescientist/logc
+[submodule "xxHash"]
+	path = xxHash
+	url = https://github.com/Cyan4973/xxHash
