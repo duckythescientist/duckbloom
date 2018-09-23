@@ -7,7 +7,13 @@ A fast Bloomfilter implementation in C with a Python wrapper.
 > 
 > - https://en.wikipedia.org/wiki/Bloom_filter
 
-Works with memory mapped files or pure memory filters thanks to `mmapf` from the great (Brainflayer)[https://github.com/ryancdotorg/brainflayer] project.
+Works with memory mapped files or pure memory filters thanks to a slightly modifieid `mmapf` from the great [Brainflayer](https://github.com/ryancdotorg/brainflayer) project.
+
+Super duper fast hashing is provided by [xxHash](https://github.com/Cyan4973/xxHash)
+
+
+
+
 
 ## Build
 
@@ -22,6 +28,10 @@ make
 
 ## Install
 This is optional. Installs `libduckbloom.so` to `/usr/local/lib` and the header to `/usr/local/include`.
+
+```bash
+make install
+```
 
 ## Basic Usage Example
 ```c
